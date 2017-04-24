@@ -2,8 +2,6 @@ package task1;
 
 public class Calculator {
 
-    
-    
     public static double calculate(String opeartor, double a, double b) {
         switch (opeartor) {
             case "SUM":
@@ -22,8 +20,8 @@ public class Calculator {
     }
 
     private static double per(double a, double b) {
-        return (100/b)*a;
-        
+        return a * (b / 100);
+
     }
 
 }
