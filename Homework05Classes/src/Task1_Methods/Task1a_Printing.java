@@ -9,7 +9,7 @@ class Person {
         
     }
 }
-
+ 
 public class Task1a_Printing {
 
     public static void main(String[] args) {

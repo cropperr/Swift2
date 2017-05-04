@@ -9,7 +9,7 @@ public class Task1b_AreEqual {
         {
             return "false";
         }
-
+ 
     }
 
     public static void main(String[] args) {
