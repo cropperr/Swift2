@@ -11,7 +11,7 @@ public class Program {
         System.out.println();
         // 2 way : 
        for (CardSuit info : EnumSet.allOf(CardSuit.class)) {
-    System.out.println(info);
+    System.out.println(info); 
        }
         System.out.println();
         System.out.println("Card rank : ");
