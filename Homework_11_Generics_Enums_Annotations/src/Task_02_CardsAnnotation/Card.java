@@ -1,6 +1,9 @@
 
-package Task_01_Deck;
+package Task_02_CardsAnnotation;
 
+@CardsAnnotation(type = "class",
+        category = "CardGames",
+        description = "Represents a card object used to play games with.")
 public class Card implements Comparable<Card> {
 
     CardRank rank;
